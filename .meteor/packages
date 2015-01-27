@@ -10,3 +10,5 @@ coffeescript
 meteorhacks:inject-initial
 differential:vulcanize
 
+nachoab:classjs
+aramk:requirejs
