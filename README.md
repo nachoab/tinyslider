@@ -1,7 +1,3 @@
-# Differential Polymer Demo
-
-## AS SEEN ON THE [YOUTUBES](https://www.youtube.com/watch?v=DsATeVvMIm4)
-
 ## Installation
 
 1. Clone the repository `git clone https://github.com/Differential/polymer-demo`
