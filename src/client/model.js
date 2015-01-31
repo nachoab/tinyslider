@@ -6,10 +6,11 @@ model = {
 
 var update = function(doc) {
   model.tvs = Tvs.find().fetch();
+
   Object.observe(model.tvs, function(changes) {
-    console.log('tvs actualizadas', changes);
-    Tvs.remove(changes)
-    Tvs.insert()
+    console.log(changes);
+    // Tvs.remove(changes)
+    // Tvs.insert()
   });
 }
 Tvs.find().observe({
