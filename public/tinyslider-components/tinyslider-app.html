@@ -50,21 +50,13 @@
   </style>
 
   <template>
-    <core-header-panel>
-      <core-toolbar>
-        <core-icon-button icon="menu" on-tap="{{menuAction}}"></core-icon-button>
-        <div flex>{{app.title}}</div>
-        <core-icon-button icon="more" on-tap="{{moreAction}}"></core-icon-button>
-      </core-toolbar>
-
-      <div class="container" layout vertical center>
-        <template repeat="{{app.tvs}}">
-          <div class="row">
-            Nombre: {{name}}
-          </div>
-        </template>
-      </div>
-    </core-header-panel>
+    <div class="container" >
+      <template repeat="{{app.tvs}}">
+        <div class="row">
+          Nombre: {{name}}
+        </div>
+      </template>
+    </div>
   </template>
 
   <script>
